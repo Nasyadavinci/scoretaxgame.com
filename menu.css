@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(rgba(13,21,58), rgba(37,54,133), rgba(218,165,25), rgba(250,234,18)100%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: fantasy,cursive,Arial, Helvetica, sans-serif;
+    
+}
+
+.container2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+}
+
+.container3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    color: white;
+}
+
+
+.btn3{
+    text-align: center;
+    height: 5rem;
+    display: 5rem;
+    font-size: 2rem;
+    margin: 0rem 1rem;
+    font-size: 2rem;
+    padding: 1rem ;
+    width: 20rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, rgb(18,92,255) 0%, rgb(0,10,255)100%);
+    border-radius: 15px;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+}
+
+.btn3:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8,114,244,0.6);
+    transition: transform 150ms;
+    transform: scale(1.03); /*membuat menonjol*/
+
+}
+
+.btn3[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+h1{
+    font-size: 5.4rem;
+    color: white;
+    margin-bottom: 5rem;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    
+
+}
+.btn2{
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg,rgba(13,21,58), rgba(37,54,133));
+    border-radius: 15px;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(8,114,244,0.6);
+    transition: transform 150ms;
+    transform: scale(1.03); /*membuat menonjol*/
+
+}
+
+.btn2[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.hidden{
+    display: none;
+}
